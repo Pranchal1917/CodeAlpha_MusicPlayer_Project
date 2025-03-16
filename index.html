@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🎵 My Music Player 🎵</h1>
+        <audio id="audio" controls>
+            <source id="audioSource" src="Laagi Tum Sang Yaari Mere Banke Bihari __ OFFICIAL VIDEO __ Acharya Shri Mridul Krishna Goswamiji(MP3_160K).mp3" type="audio/mpeg">
+            <source id="audioSource" src="Ye Chamak Ye Dhamak Bhajan । Pandit Sudhir Vyas Ji [ ORIGINAL BHAJAN ](MP3_160K).mp3"type="audio/mpeg">
+            <source id="audioSource" src="राघव ललन तेरे कोमल चरण __ Raghav Lalan Tere Komal Charan _ Ram Bhajan l _mishra-bandhu(MP3_160K).mp3"type="audio/mpeg">
+            <source id="audioSource" src="मिश्री से मीठे बोल हमारी राधा रानी के _ Mishri Se Mithe Bol Hmari Radha Rani ke _ _BansiWaleMohan(MP3_160K).mp3"type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+
+        <div class="controls">
+            <button onclick="prevMusic()">⏮ Previous</button>
+            <button onclick="playMusic()">▶ Play</button>
+            <button onclick="pauseMusic()">⏸ Pause</button>
+            <button onclick="stopMusic()">⏹ Stop</button>
+            <button onclick="nextMusic()">⏭ Next</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
